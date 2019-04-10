@@ -2,22 +2,21 @@
 
 ## About
 
-The simplest editor to translate apps & sites for YML files
-FAST & SIMPLE & FREE & OPENSOURCE
+Simple way to run this amazing, fast & simple yml translations polly.
 
-The editor is built with AngularJS. Give it a shot!
+Thanks to pikock for this great job!
 
-## Build the project
+## Docker container
 
 ```sh
 
-npm install
+docker pull mllagostera/polly
 
 ```
 
 ```sh
 
-npm run dev
+docker run -p 9000:9000 mllagostera/polly
 
 ```
 
